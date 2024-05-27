@@ -178,3 +178,90 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+/* Per il mobile */
+@media screen and (max-width: 575px){
+h1 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+    nav li {
+        display: inline-block;
+    }
+    main article div {
+        border: solid 5px #A12572;
+        width: 80px;
+        height: 80px;
+    }
+main article img {
+    width: 70px;
+    height: 70px;
+    border: solid 5px #01A0C6;
+    padding: 2px;
+}
+#novità {
+    background-color: #A3A3A3 ;
+}
+section h2 {
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+}
+
+/* Per il medium */
+@media screen and (min-width:576px){
+    body {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 5.6rem;
+        line-height: 6.5rem;
+    }
+        nav li {
+            display: inline-block;
+        }
+        main article div {
+            border: solid 5px #A12572;
+            width: 80px;
+            height: 80px;
+        }
+    main article img {
+        width: 70px;
+        height: 70px;
+        border: solid 5px #01A0C6;
+        padding: 2px;
+    }
+    #novità {
+        background-color: #A3A3A3 ;
+    }
+    section h2 {
+        height: 40px;
+        padding-top: 0.7rem;
+        text-transform: lowercase;
+        text-transform: capitalize;
+    }
+    table {
+        margin-inline: auto;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+    form fieldset {
+        height: 50px;
+    }
+    form fieldset input {
+        height: 100%;
+        width: 70%;
+    }
+    form fieldset button {
+        height: 100%;
+        width: 20%;
+    }
+    footer {
+        font-size: 1.6rem;
+    }
+    }
+
+    /* Per il desktop */
+    @media screen and (min-width: 992px) {
+
+    }
